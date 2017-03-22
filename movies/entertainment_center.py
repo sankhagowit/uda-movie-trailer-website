@@ -13,3 +13,4 @@ avatar = media.Movie("Avatar",
                      "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
 
 print(avatar.storyline)
+avatar.show_trailer()
