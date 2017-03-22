@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# Create and populate movie objects containing my favorite movies
 matrix = media.Movie("The Matrix",
                      "Computer hackers learn the truth of the world in which their bodies reside",
                      "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
@@ -16,5 +17,9 @@ avatar = media.Movie("Avatar",
                      "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                      "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
 
+# Create array containing movie objects for open_movies_page method
 movies = [matrix, toy_story, avatar]
+
+# use fresh_tomatoes.open_movies_page method which creates html and css
+# for each movie object creating fresh_tomatoes.html
 fresh_tomatoes.open_movies_page(movies)

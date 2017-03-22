@@ -1,5 +1,8 @@
 import webbrowser
 
+# Movie class holds the title, short storyline description, url string of
+# title picture and url string of the movie trailer. Also includes a
+# show_trailer method which opens the movie trailer in a web browser
 class Movie():
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
