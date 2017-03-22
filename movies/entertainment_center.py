@@ -1,5 +1,10 @@
 import media
 
+matrix = media.Movie("The Matrix",
+                     "Computer hackers learn the truth of the world in which their bodies reside",
+                     "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
+                     "https://www.youtube.com/watch?v=m8e-FF8MsqU")
+
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-m8zzyx_5670999f.jpeg?region=0%2C0%2C300%2C450",
