@@ -17,5 +17,5 @@ avatar = media.Movie("Avatar",
                      "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                      "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
 
-print(avatar.storyline)
-avatar.show_trailer()
+print(matrix.storyline)
+matrix.show_trailer()
